@@ -1,4 +1,4 @@
-# Django Project Setup Guide
+# Contacts App - Django Project Setup Guide
 
 ## Prerequisites
 
@@ -74,3 +74,25 @@ If you need to reset the database, delete `db.sqlite3` and re-run:
 ```sh
 python manage.py migrate
 ```
+
+## App Features
+
+### View existing contacts in the database
+![image](https://github.com/user-attachments/assets/40a80e46-6c07-4536-9f40-5832b076e12f)
+*A stylish, modern UI is used.*
+
+
+### Add a new contact to the database
+![image](https://github.com/user-attachments/assets/3d15ee65-4026-4e4e-916f-cd5d24001ddd)
+*Clicking the 'Add Contact' button generates a popup form with controls to add a new contact record.*
+
+
+### Edit an existing contact in the database
+![image](https://github.com/user-attachments/assets/ca936056-cad9-40cf-b250-e264528cef54)
+*Clicking the 'Edit' button for a given row generates a popup form with controls to edit an existing contact record.*
+
+
+### Delete an existing contact from the database
+![image](https://github.com/user-attachments/assets/8357bf46-8f5b-42a8-8089-3f7fabd59953)
+*Clicking the 'Delete' button for a given row generates a popup form with controls to delete an existing contact record.*
+
