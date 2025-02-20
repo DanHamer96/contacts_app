@@ -1,0 +1,16 @@
+# Byte-compiled / Virtualenv files
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
+env/
+*.egg-info/
+
+# Database and Migrations
+db.sqlite3
+*.log
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# IDE
+.idea/
